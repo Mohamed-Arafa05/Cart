@@ -1,0 +1,17 @@
+const [products,setProducts] = useState([
+    {id:0, name:'shipcy', price: 100, items:1}
+    {id:1, name:'pesi', price: 200, items:1}
+    {id:2, name:'molto', price: 300, items:1}
+    {id:3, name:'kranshy', price: 400, items:1}
+    {id:4, name:'cigaretes', price: 500, items:1}
+])
+-------------------------------------------------------
+const [addedProducts] = useState([
+    {id:0, name:'shipcy', price: 100, items:1}
+    {id:1, name:'pesi', price: 200, items:1}
+    {id:2, name:'molto', price: 300, items:1}
+    {id:3, name:'kranshy', price: 400, items:1}
+    {id:4, name:'cigaretes', price: 500, items:1}
+])
+--------------------------------------------------------
+const [theme,setTheme] = useState(false)
